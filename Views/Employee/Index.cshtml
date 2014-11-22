@@ -103,7 +103,7 @@
     $('body').on('click', 'span.editButton', function () {
         var id = $(this).attr("id");
         empId = id;
-        alert(id);
+        alert(empId);
         $.ajax({
             url: "/api/EmployeeApi/" + id,
             type: "Get",
